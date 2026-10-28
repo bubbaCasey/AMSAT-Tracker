@@ -22,6 +22,7 @@ The project uses a split dual-ESP32 design:
 The two units talk over UART using JSON packets. Motor control runs on Core 0 and UI/SGP4/WiFi on Core 1.
 
 A simpler single-ESP32 variant (PCA9685 servo control, 4-line I²C LCD, rotary encoder) is kept as a more accessible build path.
+<img width="749" height="571" alt="image" src="https://github.com/user-attachments/assets/e50c4b3c-6fa1-4067-b3b3-f5328f1fd057" />
 
 ## Hardware
 
